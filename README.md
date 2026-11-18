@@ -2,7 +2,7 @@
 
 # 🔐 PixelGuard
 
-### ✨ Encrypt Images Like Magic — Pixel by Pixel ✨
+## ✨ Encrypt Images Like Magic — Pixel by Pixel ✨
 
 **A fun and simple Python tool that encrypts and decrypts images using pixel manipulation.**
 
@@ -29,13 +29,13 @@ Using the same secret key, you can decrypt the image and recover the original fi
 
 | Feature | Description |
 |--------|-------------|
-| 🔢 **XOR Encryption** | Changes RGB pixel values using a secret key |
-| ➕ **Additive Encryption** | Adds a numeric key to every RGB channel |
-| 🔀 **Pixel Shuffling** | Randomly rearranges pixel positions |
-| 🔁 **Full Decryption** | Restores the original image exactly |
-| 🖼️ **PNG Support** | Saves lossless encrypted and decrypted images |
-| ⚡ **Fast Processing** | Uses NumPy for efficient pixel operations |
-| 💻 **Simple CLI** | Easy-to-use command-line interface |
+|  **XOR Encryption** | Changes RGB pixel values using a secret key |
+|  **Additive Encryption** | Adds a numeric key to every RGB channel |
+|  **Pixel Shuffling** | Randomly rearranges pixel positions |
+|  **Full Decryption** | Restores the original image exactly |
+|  **PNG Support** | Saves lossless encrypted and decrypted images |
+|  **Fast Processing** | Uses NumPy for efficient pixel operations |
+|  **Simple CLI** | Easy-to-use command-line interface |
 
 ---
 
@@ -124,32 +124,32 @@ Decrypted image saved to: restored.png
 ## 🧠 How It Works
 
 ```text
-🖼️ Original Image
+ Original Image
         ↓
-🧮 Convert to RGB Pixel Array
+ Convert to RGB Pixel Array
         ↓
-🔐 Apply XOR / Addition
+ Apply XOR / Addition
         ↓
-🔀 Shuffle Pixel Positions
+ Shuffle Pixel Positions
         ↓
-🔒 Encrypted Image
+ Encrypted Image
 ```
 
 ### Decryption Flow
 
 ```text
-🔒 Encrypted Image
+ Encrypted Image
         ↓
-🔀 Reverse Pixel Shuffling
+ Reverse Pixel Shuffling
         ↓
-🧮 Reverse XOR / Addition
+ Reverse XOR / Addition
         ↓
-🖼️ Original Image Restored
+ Original Image Restored
 ```
 
 ---
 
-## 🔑 Encryption Settings
+## Encryption Settings
 
 | Setting | Example | Must Match? |
 |--------|---------|-------------|
@@ -160,7 +160,7 @@ Decrypted image saved to: restored.png
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 PixelGuard/
@@ -174,7 +174,7 @@ PixelGuard/
 
 ---
 
-## 📦 requirements.txt
+## requirements.txt
 
 ```text
 pillow
@@ -185,25 +185,25 @@ numpy
 
 ## ⚠️ Important Notes
 
-- 🖼️ Always save encrypted and decrypted images as **PNG**
-- 🚫 Do not resize, crop, or recompress encrypted images
-- 🔐 Keep your encryption key safe
-- 🧪 This is an educational project, not military-grade encryption
-- 🛡️ For real security, use AES or another trusted encryption method
+- Always save encrypted and decrypted images as **PNG**
+- Do not resize, crop, or recompress encrypted images
+- Keep your encryption key safe
+- This is an educational project, not military-grade encryption
+- For real security, use AES or another trusted encryption method
 
 ---
 
 ## 🛣️ Future Improvements
 
-- [ ] 🖥️ Add a graphical user interface  
-- [ ] 🗂️ Encrypt multiple images at once  
-- [ ] 🔑 Generate keys from passwords  
-- [ ] 🛡️ Add stronger encryption methods  
-- [ ] 👀 Show before/after image preview  
+- [ ] Add a graphical user interface  
+- [ ] Encrypt multiple images at once  
+- [ ] Generate keys from passwords  
+- [ ] Add stronger encryption methods  
+- [ ] Show before/after image preview  
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome!
 
@@ -213,17 +213,10 @@ Contributions are welcome!
 4. Submit a pull request  
 
 ---
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
----
-
 <div align="center">
 
-### ✨ Made with ❤️ using Python, Pillow & NumPy ✨
+### Made with ❤️ using Python, Pillow & NumPy 
 
-⭐ **Star this repo if you found it helpful!**
+⭐ **Star this repo if you found it helpful!** ⭐
 
 </div>
