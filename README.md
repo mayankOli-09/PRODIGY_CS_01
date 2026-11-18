@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🔐 PixelGuard
+## 🔐 PixelGuard
 
-## ✨ Encrypt Images Like Magic — Pixel by Pixel ✨
+### ✨ Encrypt Images Like Magic — Pixel by Pixel ✨
 
 **A fun and simple Python tool that encrypts and decrypts images using pixel manipulation.**
 
