@@ -54,20 +54,20 @@ Using the same secret key, you can decrypt the image and recover the original fi
 
 ## ⚡ Quick Start
 
-### 1️⃣ Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone [https://github.com/your-username/PixelGuard.git](https://github.com/your-username/PixelGuard.git)
 cd PixelGuard
 ```
 
-### 2️⃣ Install Dependencies
+### Install Dependencies
 
 ```bash
 python -m pip install -r requirements.txt
 ```
 
-### 3️⃣ Run the Tool
+### Run the Tool
 
 ```bash
 python image_encryptor.py
@@ -83,7 +83,7 @@ python3 image_encryptor.py
 
 ## 🎮 How to Use
 
-### 🔒 Encrypt an Image
+### Encrypt an Image
 
 ```text
 Choose action - encrypt/decrypt: encrypt
@@ -100,7 +100,7 @@ Shuffle pixel positions? (y/n): y
 Encrypted image saved to: encrypted.png
 ```
 
-### 🔓 Decrypt an Image
+### Decrypt an Image
 
 ```text
 Choose action - encrypt/decrypt: decrypt
