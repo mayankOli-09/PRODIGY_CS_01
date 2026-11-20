@@ -56,3 +56,36 @@ def decrypt_image(input_path, output_path, key, use_xor=True, shuffle=True):
         array = add_pixels(array, key, decrypt=True)
     save_image(array, output_path)
     print(f"Decrypted image saved to: {output_path}")
+
+def main():
+    print("Pixel Manipulation Image Encryption")
+    print("----------------------------------")
+    action = input("Choose action - encrypt/decrypt: ").strip().lower()
+    if action not in ("encrypt", "decrypt"):
+        print("Invalid action.")
+        return
+    input_path = input("Input image path: ").strip()
+    output_path = input("Output image path (use .png): ").strip()
+    try:
+        key = int(input("Numeric key (0-255): "))
+        if not 0 <= key <= 255:
+            raise ValueError
+    except ValueError:
+        print("Key must be an integer from 0 to 255.")
+        return
+    operation = input("Operation - xor/add: ").strip().lower()
+    use_xor = operation == "xor"
+    if operation not in ("xor", "add"):
+        print("Invalid operation.")
+        return
+    shuffle_input = input("Shuffle pixel positions? (y/n): ").strip().lower()
+    shuffle = shuffle_input == "y"
+    if not os.path.exists(input_path):
+        print("Input image not found.")
+        return
+    if action == "encrypt":
+        encrypt_image(input_path, output_path, key, use_xor, shuffle)
+    else:
+        decrypt_image(input_path, output_path, key, use_xor, shuffle)
+if __name__ == "__main__":
+    main()
